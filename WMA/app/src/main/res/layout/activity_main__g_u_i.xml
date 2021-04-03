@@ -48,7 +48,7 @@
                 android:layout_height="100dp"
                 android:layout_alignTop="@id/imageView_b01_01"
                 android:layout_toRightOf="@id/imageView_b01_01"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                app:srcCompat="@android:drawable/alert_dark_frame" />
 
             <ImageView
                 android:id="@+id/imageView_b01_03"
