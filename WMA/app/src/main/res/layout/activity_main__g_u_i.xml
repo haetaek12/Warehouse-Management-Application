@@ -31,21 +31,20 @@
             android:id="@+id/id_b01"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone"
             tools:visibility="gone">
 
             <ImageView
                 android:id="@+id/imageView_b01_01"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="80dp"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <ImageView
                 android:id="@+id/imageView_b01_02"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="50dp"
                 android:layout_alignTop="@id/imageView_b01_01"
                 android:layout_toRightOf="@id/imageView_b01_01"
                 app:srcCompat="@android:drawable/alert_dark_frame" />
@@ -53,7 +52,7 @@
             <ImageView
                 android:id="@+id/imageView_b01_03"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="50dp"
                 android:layout_alignTop="@id/imageView_b01_01"
                 android:layout_toRightOf="@id/imageView_b01_02"
                 app:srcCompat="@drawable/ic_baseline_4k_24" />
@@ -128,45 +127,60 @@
             android:id="@+id/id_301"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:visibility="gone">
+            tools:visibility="visible">
 
             <ImageView
                 android:id="@+id/imageView_301_01"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="80dp"
-                app:srcCompat="@android:drawable/arrow_down_float" />
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="100dp"
+                app:srcCompat="@drawable/imageview_301_01" />
 
             <ImageView
                 android:id="@+id/imageView_301_02"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                android:layout_alignLeft="@id/imageView_301_01"
+                android:layout_alignTop="@id/imageView_301_01"
+                android:layout_marginTop="120dp"
+                app:srcCompat="@drawable/imageview_301_02" />
 
             <ImageView
                 android:id="@+id/imageView_301_03"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@id/imageView_301_01"
+                android:layout_alignTop="@id/imageView_301_01"
+                android:layout_marginTop="240dp"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/imageview_301_03" />
 
             <ImageView
                 android:id="@+id/imageView_301_04"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                android:layout_alignTop="@id/imageView_301_02"
+                android:layout_alignRight="@id/imageView_301_03"
+                app:srcCompat="@drawable/imageview_301_04" />
 
             <ImageView
                 android:id="@+id/imageView_301_05"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@id/imageView_301_01"
+                android:layout_alignBottom="@id/imageView_301_01"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="120dp"
+                app:srcCompat="@drawable/imageview_301_06" />
 
             <ImageView
                 android:id="@+id/imageView_301_06"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_baseline_4k_24" />
+                android:layout_alignTop="@id/imageView_301_01"
+                android:layout_alignRight="@id/imageView_301_03"
+                app:srcCompat="@drawable/imageview_301_05" />
 
         </RelativeLayout>
 
